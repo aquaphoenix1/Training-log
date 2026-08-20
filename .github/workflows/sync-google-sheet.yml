@@ -1,0 +1,31 @@
+name: Sync Google Sheet
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Google Sheet as CSV
+        run: |
+          curl --fail --location --silent --show-error \
+            "https://docs.google.com/spreadsheets/d/1R9sHS9H6RNW0e0H4BD3z_Vir7yk4bU5x/export?format=csv&gid=1034788672" \
+            -o workouts.csv
+
+      - name: Commit changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- workouts.csv
+          git diff --cached --quiet && exit 0
+          git commit -m "Sync training log from Google Sheets"
+          git push
