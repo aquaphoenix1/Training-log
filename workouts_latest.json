@@ -1,0 +1,808 @@
+{
+  "source": "Google Sheets",
+  "generated_at_utc": "2026-09-28T12:48:23.490494+00:00",
+  "session_count": 3,
+  "sessions": [
+    {
+      "session": 11,
+      "section": "current",
+      "entries": [
+        {
+          "source_row": 3,
+          "exercise": "Присед в смите",
+          "reps": "10",
+          "weight": "70-70-70-60-60",
+          "feeling": "3",
+          "felt": "Общая слабость",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 4,
+          "exercise": "Жим ногами",
+          "reps": "10",
+          "weight": "200-200-200-180-180",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 5,
+          "exercise": "Разгибания",
+          "reps": "10",
+          "weight": "52.5-52.5-55-55-55",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 6,
+          "exercise": "Икры",
+          "reps": "20",
+          "weight": "42.5-42.5-42.5-42.5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 7,
+          "exercise": "Пресс",
+          "reps": "10",
+          "weight": "40-40-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 8,
+          "exercise": "Гиперэкстензия",
+          "reps": "10",
+          "weight": "10-10-10-10-15",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 10,
+          "exercise": "Средняя дельта кроссовер",
+          "reps": "10",
+          "weight": "5-5-5-5-5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 11,
+          "exercise": "Передняя дельта",
+          "reps": "10",
+          "weight": "50-50-50-50-50",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 12,
+          "exercise": "Средняя дельта тренажёр",
+          "reps": "10",
+          "weight": "45-45-47.5-47.5-47.5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 13,
+          "exercise": "Задняя дельта",
+          "reps": "10",
+          "weight": "15-15-15-15-15",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 14,
+          "exercise": "Бицепс штанга",
+          "reps": "10",
+          "weight": "25-20-20-20-20",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 15,
+          "exercise": "Бицепс молотки",
+          "reps": "10",
+          "weight": "18-18-18-20-20",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 16,
+          "exercise": "Трицепс",
+          "reps": "10",
+          "weight": "17.5-17.5-17.5-15-15",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 18,
+          "exercise": "Румынская тяга в смите",
+          "reps": "10",
+          "weight": "60-40-40-40-40",
+          "feeling": "0",
+          "felt": "Поясница/кисти",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 19,
+          "exercise": "Сгибания",
+          "reps": "12",
+          "weight": "57.5-55-55-52.5-52.5",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 20,
+          "exercise": "Выпады",
+          "reps": "10",
+          "weight": "28-28-32",
+          "feeling": "1",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 21,
+          "exercise": "Приведение",
+          "reps": "12",
+          "weight": "80-80-80",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 22,
+          "exercise": "Отведение",
+          "reps": "12",
+          "weight": "75-75-75",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 23,
+          "exercise": "Ягодичный мост",
+          "reps": "10",
+          "weight": "20-20-20-20-20",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 25,
+          "exercise": "Пэк-дэк на грудь",
+          "reps": "10",
+          "weight": "20-20-20-20-20",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 26,
+          "exercise": "Вертикальная тяга одной рукой",
+          "reps": "10",
+          "weight": "65-65-70-70-70",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 27,
+          "exercise": "Хаммер на грудь",
+          "reps": "10",
+          "weight": "40-40-40-45-45",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 28,
+          "exercise": "Горизонтальная тяга",
+          "reps": "10",
+          "weight": "50-50-50-55-55",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 29,
+          "exercise": "Жим на наклонной скамье",
+          "reps": "10",
+          "weight": "40-40-40-35-35",
+          "feeling": "2",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 30,
+          "exercise": "Вертикальная тяга кроссовер прямая рукоять",
+          "reps": "10",
+          "weight": "40-45-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 32,
+          "exercise": "Начало новой схемы - ноги остаются\nкак были, плечи+руки отдельным днем,\nгрудь и спина вместе.",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "session": 12,
+      "section": "current",
+      "entries": [
+        {
+          "source_row": 3,
+          "exercise": "Присед в смите",
+          "reps": "10",
+          "weight": "70-70-70-65-65",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 4,
+          "exercise": "Жим ногами",
+          "reps": "10",
+          "weight": "160-200-200-200-200",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 5,
+          "exercise": "Разгибания",
+          "reps": "10",
+          "weight": "55-55-55-55-55",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 6,
+          "exercise": "Икры",
+          "reps": "20",
+          "weight": "42.5-42.5-42.5-42.5",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 7,
+          "exercise": "Пресс",
+          "reps": "10",
+          "weight": "40-40-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 8,
+          "exercise": "Гиперэкстензия",
+          "reps": "10",
+          "weight": "10-10-10-10-15",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 10,
+          "exercise": "Средняя дельта кроссовер",
+          "reps": "10",
+          "weight": "5-5-5-5-5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 11,
+          "exercise": "Передняя дельта",
+          "reps": "10",
+          "weight": "50-50-50-50-50",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 12,
+          "exercise": "Средняя дельта тренажёр",
+          "reps": "10",
+          "weight": "45-47.5-47.5-47.5-47.5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 13,
+          "exercise": "Задняя дельта",
+          "reps": "10",
+          "weight": "15-15-15-15-15",
+          "feeling": "2",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 14,
+          "exercise": "Бицепс штанга",
+          "reps": "10",
+          "weight": "25-20-20-20-20",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 15,
+          "exercise": "Бицепс молотки",
+          "reps": "10",
+          "weight": "18-18-18-18-18",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 16,
+          "exercise": "Трицепс",
+          "reps": "10",
+          "weight": "17.5-17.5-17.5-17.5-15",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 18,
+          "exercise": "Румынская тяга в смите",
+          "reps": "10",
+          "weight": "44-44-44-44-44",
+          "feeling": "0",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 19,
+          "exercise": "Сгибания",
+          "reps": "12",
+          "weight": "57.5-57.5-55-55-52.5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 20,
+          "exercise": "Выпады",
+          "reps": "10",
+          "weight": "28-28-32",
+          "feeling": "1",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 21,
+          "exercise": "Приведение",
+          "reps": "12",
+          "weight": "80-80-80",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 22,
+          "exercise": "Отведение",
+          "reps": "12",
+          "weight": "75-75-75",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 23,
+          "exercise": "Ягодичный мост",
+          "reps": "10",
+          "weight": "30-30-30-20-20",
+          "feeling": "2",
+          "felt": "Бицепс бедра",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 25,
+          "exercise": "Пэк-дэк на грудь",
+          "reps": "10",
+          "weight": "20-20-20-20-20",
+          "feeling": "4",
+          "felt": "Передняя дельта",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 26,
+          "exercise": "Вертикальная тяга одной рукой",
+          "reps": "10",
+          "weight": "65-65-70-70-70",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 27,
+          "exercise": "Хаммер на грудь",
+          "reps": "10",
+          "weight": "40-40-40-45-45",
+          "feeling": "2",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 28,
+          "exercise": "Горизонтальная тяга",
+          "reps": "10",
+          "weight": "55-55-55-55-50",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 29,
+          "exercise": "Жим на наклонной скамье",
+          "reps": "10",
+          "weight": "40-40-40-35-35",
+          "feeling": "2",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 30,
+          "exercise": "Вертикальная тяга кроссовер прямая рукоять",
+          "reps": "10",
+          "weight": "40-45-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 32,
+          "exercise": "Начало новой схемы - ноги остаются\nкак были, плечи+руки отдельным днем,\nгрудь и спина вместе.",
+          "reps": "",
+          "weight": "Сильная крепатура квадрицепса.",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "session": 13,
+      "section": "current",
+      "entries": [
+        {
+          "source_row": 3,
+          "exercise": "Присед в смите",
+          "reps": "10",
+          "weight": "70-70-70-70-65",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 4,
+          "exercise": "Жим ногами",
+          "reps": "10",
+          "weight": "200-200-200-200-200",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 5,
+          "exercise": "Разгибания",
+          "reps": "10",
+          "weight": "55-55-55-55-55",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 6,
+          "exercise": "Икры",
+          "reps": "20",
+          "weight": "45-45-45-45",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 7,
+          "exercise": "Пресс",
+          "reps": "10",
+          "weight": "40-40-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 8,
+          "exercise": "Гиперэкстензия",
+          "reps": "10",
+          "weight": "10-10-10-10-15",
+          "feeling": "2",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 10,
+          "exercise": "Средняя дельта кроссовер",
+          "reps": "10",
+          "weight": "5-5-5-5-5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 11,
+          "exercise": "Передняя дельта",
+          "reps": "10",
+          "weight": "50-50-50-50-60",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 12,
+          "exercise": "Средняя дельта тренажёр",
+          "reps": "10",
+          "weight": "45-47.5-47.5-47.5-47.5",
+          "feeling": "4",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 13,
+          "exercise": "Задняя дельта",
+          "reps": "10",
+          "weight": "15-15-15-15-15",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 14,
+          "exercise": "Бицепс штанга",
+          "reps": "10",
+          "weight": "25-20-20-20-20",
+          "feeling": "5",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 15,
+          "exercise": "Бицепс молотки",
+          "reps": "10",
+          "weight": "18-18-18-18-18",
+          "feeling": "2",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 16,
+          "exercise": "Трицепс",
+          "reps": "10",
+          "weight": "17.5-17.5-17.5-17.5-17.5",
+          "feeling": "3",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 18,
+          "exercise": "Румынская тяга в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 19,
+          "exercise": "Сгибания",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 20,
+          "exercise": "Выпады",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 21,
+          "exercise": "Приведение",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 22,
+          "exercise": "Отведение",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 23,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 25,
+          "exercise": "Пэк-дэк на грудь",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 26,
+          "exercise": "Вертикальная тяга одной рукой",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 27,
+          "exercise": "Хаммер на грудь",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 28,
+          "exercise": "Горизонтальная тяга",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 29,
+          "exercise": "Жим на наклонной скамье",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 30,
+          "exercise": "Вертикальная тяга кроссовер прямая рукоять",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 32,
+          "exercise": "Начало новой схемы - ноги остаются\nкак были, плечи+руки отдельным днем,\nгрудь и спина вместе.",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "section": "current",
+          "explicit_exercise": false
+        }
+      ],
+      "notes": []
+    }
+  ]
+}
