@@ -13,7 +13,6 @@ with INPUT.open("r", encoding="utf-8-sig", newline="") as f:
 if not rows:
     raise SystemExit("Google Sheet export is empty")
 header = rows[0]
-
 current_start = next((i for i, v in enumerate(header) if i > 0 and v.strip() == EXERCISE), None)
 if current_start is None:
     raise SystemExit("Could not locate current workout section")
@@ -21,16 +20,16 @@ if current_start is None:
 def get(row, i):
     return row[i].strip() if i < len(row) else ""
 
+def is_marker(exercise, values):
+    text = " ".join([exercise] + [v for v in values if v])
+    return "Начало новой схемы" in text or exercise in {"Агенда:", "Изменения"}
+
 def parse_entry(row, source_row, exercise, start, section, explicit=False):
-    # Actual Google Sheet block layout is:
-    # exercise | repetitions | weight(s) | feeling score | felt/notes.
-    reps = get(row, start + 1)
-    weight = get(row, start + 2)
-    feeling = get(row, start + 3)
-    felt = get(row, start + 4)
-    if not any((exercise, reps, weight, feeling, felt)):
+    values = [get(row, start + j) for j in range(5)]
+    if is_marker(exercise, values):
         return None
-    if exercise.startswith("Агенда:") or exercise == "Изменения":
+    reps, weight, feeling, felt, note = values
+    if not any((exercise, reps, weight, feeling, felt, note)):
         return None
     return {
         "source_row": source_row,
@@ -39,6 +38,7 @@ def parse_entry(row, source_row, exercise, start, section, explicit=False):
         "weight": weight,
         "feeling": feeling,
         "felt": felt,
+        "note": note,
         "section": section,
         "explicit_exercise": explicit,
     }
@@ -48,7 +48,8 @@ for session_number, start in enumerate((1, 6, 11, 16), start=1):
     entries, notes = [], []
     for source_row, row in enumerate(rows[1:], start=2):
         exercise = get(row, 0)
-        joined = " ".join(get(row, start + j) for j in range(5))
+        values = [get(row, start + j) for j in range(5)]
+        joined = " ".join([exercise] + [v for v in values if v])
         if "Начало новой схемы" in joined:
             notes.append({"source_row": source_row, "text": joined})
         entry = parse_entry(row, source_row, exercise, start, "old", True)
@@ -69,7 +70,7 @@ for start in current_starts:
             last_exercise[source_row] = raw_exercise
         exercise = last_exercise.get(source_row, "")
         values = [get(row, start + j) for j in range(5)]
-        joined = " ".join(v for v in values if v)
+        joined = " ".join([exercise] + [v for v in values if v])
         if "Начало новой схемы" in joined:
             notes.append({"source_row": source_row, "text": joined})
         entry = parse_entry(row, source_row, exercise, start, "current", bool(raw_exercise))
