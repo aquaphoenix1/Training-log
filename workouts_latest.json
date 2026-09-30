@@ -1,6 +1,6 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-09-30T10:05:07.115039+00:00",
+  "generated_at_utc": "2026-09-30T10:06:47.201349+00:00",
   "session_count": 3,
   "sessions": [
     {
@@ -10,17 +10,17 @@
         {
           "source_row": 3,
           "exercise": "Присед в смите",
-          "reps": "70-70-70-60-60",
-          "weight": "3",
-          "feeling": "Общая слабость",
-          "felt": "Присед в смите",
-          "note": "10",
+          "reps": "Присед в смите",
+          "weight": "10",
+          "feeling": "70-70-70-60-60",
+          "felt": "3",
+          "note": "Общая слабость",
           "section": "current",
           "explicit_exercise": true
         },
         {
           "source_row": 4,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "200-200-200-180-180",
           "feeling": "4",
@@ -31,7 +31,7 @@
         },
         {
           "source_row": 5,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "52.5-52.5-55-55-55",
           "feeling": "4",
@@ -42,7 +42,7 @@
         },
         {
           "source_row": 6,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "20",
           "weight": "42.5-42.5-42.5-42.5",
           "feeling": "4",
@@ -53,7 +53,7 @@
         },
         {
           "source_row": 7,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "40-40-45-45-45",
           "feeling": "3",
@@ -64,7 +64,7 @@
         },
         {
           "source_row": 8,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "10-10-10-10-15",
           "feeling": "4",
@@ -74,8 +74,19 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 9,
+          "exercise": "Присед в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 10,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "5-5-5-5-5",
           "feeling": "4",
@@ -86,7 +97,7 @@
         },
         {
           "source_row": 11,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "50-50-50-50-50",
           "feeling": "4",
@@ -97,7 +108,7 @@
         },
         {
           "source_row": 12,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "45-45-47.5-47.5-47.5",
           "feeling": "4",
@@ -108,7 +119,7 @@
         },
         {
           "source_row": 13,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "15-15-15-15-15",
           "feeling": "3",
@@ -119,7 +130,7 @@
         },
         {
           "source_row": 14,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "25-20-20-20-20",
           "feeling": "4",
@@ -130,7 +141,7 @@
         },
         {
           "source_row": 15,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "18-18-18-20-20",
           "feeling": "3",
@@ -141,7 +152,7 @@
         },
         {
           "source_row": 16,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "17.5-17.5-17.5-15-15",
           "feeling": "3",
@@ -151,19 +162,30 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 17,
+          "exercise": "Присед в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 18,
           "exercise": "Румынская тяга в смите",
-          "reps": "60-40-40-40-40",
-          "weight": "0",
-          "feeling": "Поясница/кисти",
-          "felt": "",
-          "note": "10",
+          "reps": "",
+          "weight": "10",
+          "feeling": "60-40-40-40-40",
+          "felt": "0",
+          "note": "Поясница/кисти",
           "section": "current",
           "explicit_exercise": true
         },
         {
           "source_row": 19,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "12",
           "weight": "57.5-55-55-52.5-52.5",
           "feeling": "5",
@@ -174,7 +196,7 @@
         },
         {
           "source_row": 20,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "28-28-32",
           "feeling": "1",
@@ -185,7 +207,7 @@
         },
         {
           "source_row": 21,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "12",
           "weight": "80-80-80",
           "feeling": "4",
@@ -196,7 +218,7 @@
         },
         {
           "source_row": 22,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "12",
           "weight": "75-75-75",
           "feeling": "3",
@@ -207,7 +229,7 @@
         },
         {
           "source_row": 23,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "20-20-20-20-20",
           "feeling": "4",
@@ -217,8 +239,19 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 24,
+          "exercise": "Румынская тяга в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 25,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "20-20-20-20-20",
           "feeling": "4",
@@ -229,7 +262,7 @@
         },
         {
           "source_row": 26,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "65-65-70-70-70",
           "feeling": "4",
@@ -240,7 +273,7 @@
         },
         {
           "source_row": 27,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "40-40-40-45-45",
           "feeling": "3",
@@ -251,7 +284,7 @@
         },
         {
           "source_row": 28,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "50-50-50-55-55",
           "feeling": "3",
@@ -262,7 +295,7 @@
         },
         {
           "source_row": 29,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "40-40-40-35-35",
           "feeling": "2",
@@ -273,10 +306,54 @@
         },
         {
           "source_row": 30,
-          "exercise": "",
+          "exercise": "Румынская тяга в смите",
           "reps": "10",
           "weight": "40-45-45-45-45",
           "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 31,
+          "exercise": "Румынская тяга в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 32,
+          "exercise": "Румынская тяга в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 33,
+          "exercise": "Румынская тяга в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 34,
+          "exercise": "Румынская тяга в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
           "felt": "",
           "note": "",
           "section": "current",
@@ -292,17 +369,17 @@
         {
           "source_row": 3,
           "exercise": "Присед в смите",
-          "reps": "70-70-70-65-65",
-          "weight": "4",
-          "feeling": "",
-          "felt": "Присед в смите",
-          "note": "10",
+          "reps": "Присед в смите",
+          "weight": "10",
+          "feeling": "70-70-70-65-65",
+          "felt": "4",
+          "note": "",
           "section": "current",
           "explicit_exercise": true
         },
         {
           "source_row": 4,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "160-200-200-200-200",
           "feeling": "5",
@@ -313,7 +390,7 @@
         },
         {
           "source_row": 5,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "55-55-55-55-55",
           "feeling": "5",
@@ -324,7 +401,7 @@
         },
         {
           "source_row": 6,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "20",
           "weight": "42.5-42.5-42.5-42.5",
           "feeling": "5",
@@ -335,7 +412,7 @@
         },
         {
           "source_row": 7,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "40-40-45-45-45",
           "feeling": "3",
@@ -346,7 +423,7 @@
         },
         {
           "source_row": 8,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "10-10-10-10-15",
           "feeling": "3",
@@ -356,8 +433,19 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 9,
+          "exercise": "Присед в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 10,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "5-5-5-5-5",
           "feeling": "4",
@@ -368,7 +456,7 @@
         },
         {
           "source_row": 11,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "50-50-50-50-50",
           "feeling": "4",
@@ -379,7 +467,7 @@
         },
         {
           "source_row": 12,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "45-47.5-47.5-47.5-47.5",
           "feeling": "4",
@@ -390,7 +478,7 @@
         },
         {
           "source_row": 13,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "15-15-15-15-15",
           "feeling": "2",
@@ -401,7 +489,7 @@
         },
         {
           "source_row": 14,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "25-20-20-20-20",
           "feeling": "5",
@@ -412,7 +500,7 @@
         },
         {
           "source_row": 15,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "18-18-18-18-18",
           "feeling": "3",
@@ -423,7 +511,7 @@
         },
         {
           "source_row": 16,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "17.5-17.5-17.5-17.5-15",
           "feeling": "4",
@@ -433,8 +521,19 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 17,
+          "exercise": "Присед в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 18,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "44-44-44-44-44",
           "feeling": "0",
@@ -445,7 +544,7 @@
         },
         {
           "source_row": 19,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "12",
           "weight": "57.5-57.5-55-55-52.5",
           "feeling": "4",
@@ -456,7 +555,7 @@
         },
         {
           "source_row": 20,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "28-28-32",
           "feeling": "1",
@@ -467,7 +566,7 @@
         },
         {
           "source_row": 21,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "12",
           "weight": "80-80-80",
           "feeling": "5",
@@ -478,7 +577,7 @@
         },
         {
           "source_row": 22,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "12",
           "weight": "75-75-75",
           "feeling": "3",
@@ -490,17 +589,28 @@
         {
           "source_row": 23,
           "exercise": "Ягодичный мост",
-          "reps": "30-30-30-20-20",
-          "weight": "2",
-          "feeling": "Бицепс бедра",
-          "felt": "Ягодичный мост",
-          "note": "10",
+          "reps": "Ягодичный мост",
+          "weight": "10",
+          "feeling": "30-30-30-20-20",
+          "felt": "2",
+          "note": "Бицепс бедра",
           "section": "current",
           "explicit_exercise": true
         },
         {
+          "source_row": 24,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 25,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "20-20-20-20-20",
           "feeling": "4",
@@ -511,7 +621,7 @@
         },
         {
           "source_row": 26,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "65-65-70-70-70",
           "feeling": "4",
@@ -522,7 +632,7 @@
         },
         {
           "source_row": 27,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "40-40-40-45-45",
           "feeling": "2",
@@ -533,7 +643,7 @@
         },
         {
           "source_row": 28,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "55-55-55-55-50",
           "feeling": "3",
@@ -544,7 +654,7 @@
         },
         {
           "source_row": 29,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "40-40-40-35-35",
           "feeling": "2",
@@ -555,7 +665,7 @@
         },
         {
           "source_row": 30,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "40-45-45-45-45",
           "feeling": "3",
@@ -565,10 +675,43 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 31,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 32,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "",
           "weight": "Сильная крепатура квадрицепса.",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 33,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 34,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
           "feeling": "",
           "felt": "",
           "note": "",
@@ -585,17 +728,17 @@
         {
           "source_row": 3,
           "exercise": "Присед в смите",
-          "reps": "70-70-70-70-65",
-          "weight": "4",
-          "feeling": "",
-          "felt": "",
+          "reps": "",
+          "weight": "10",
+          "feeling": "70-70-70-70-65",
+          "felt": "4",
           "note": "",
           "section": "current",
           "explicit_exercise": true
         },
         {
           "source_row": 4,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "200-200-200-200-200",
           "feeling": "5",
@@ -606,7 +749,7 @@
         },
         {
           "source_row": 5,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "55-55-55-55-55",
           "feeling": "4",
@@ -617,7 +760,7 @@
         },
         {
           "source_row": 6,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "20",
           "weight": "45-45-45-45",
           "feeling": "4",
@@ -628,7 +771,7 @@
         },
         {
           "source_row": 7,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "40-40-45-45-45",
           "feeling": "3",
@@ -639,7 +782,7 @@
         },
         {
           "source_row": 8,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "10-10-10-10-15",
           "feeling": "2",
@@ -649,8 +792,19 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 9,
+          "exercise": "Присед в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 10,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "5-5-5-5-5",
           "feeling": "4",
@@ -661,7 +815,7 @@
         },
         {
           "source_row": 11,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "50-50-50-50-60",
           "feeling": "4",
@@ -672,7 +826,7 @@
         },
         {
           "source_row": 12,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "45-47.5-47.5-47.5-47.5",
           "feeling": "4",
@@ -683,7 +837,7 @@
         },
         {
           "source_row": 13,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "15-15-15-15-15",
           "feeling": "3",
@@ -694,7 +848,7 @@
         },
         {
           "source_row": 14,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "25-20-20-20-20",
           "feeling": "5",
@@ -705,7 +859,7 @@
         },
         {
           "source_row": 15,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "18-18-18-18-18",
           "feeling": "2",
@@ -716,7 +870,7 @@
         },
         {
           "source_row": 16,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "17.5-17.5-17.5-17.5-17.5",
           "feeling": "3",
@@ -726,8 +880,19 @@
           "explicit_exercise": false
         },
         {
+          "source_row": 17,
+          "exercise": "Присед в смите",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 18,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "44-44-44-44-44",
           "feeling": "0",
@@ -738,7 +903,7 @@
         },
         {
           "source_row": 19,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "57.5-57.5-55-55-55",
           "feeling": "4",
@@ -749,7 +914,7 @@
         },
         {
           "source_row": 20,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "10",
           "weight": "28-32-32",
           "feeling": "1",
@@ -760,7 +925,7 @@
         },
         {
           "source_row": 21,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "12",
           "weight": "80-80-80",
           "feeling": "5",
@@ -771,7 +936,7 @@
         },
         {
           "source_row": 22,
-          "exercise": "",
+          "exercise": "Присед в смите",
           "reps": "12",
           "weight": "75-75-75",
           "feeling": "4",
@@ -783,17 +948,28 @@
         {
           "source_row": 23,
           "exercise": "Ягодичный мост",
-          "reps": "30-30-30-30-30",
-          "weight": "4",
-          "feeling": "",
-          "felt": "",
+          "reps": "",
+          "weight": "10",
+          "feeling": "30-30-30-30-30",
+          "felt": "4",
           "note": "",
           "section": "current",
           "explicit_exercise": true
         },
         {
+          "source_row": 24,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
           "source_row": 25,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "20-20-20-20-20",
           "feeling": "4",
@@ -804,7 +980,7 @@
         },
         {
           "source_row": 26,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "65-65-70-70-70",
           "feeling": "4",
@@ -815,7 +991,7 @@
         },
         {
           "source_row": 27,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "45-45-45-45-45",
           "feeling": "2",
@@ -826,7 +1002,7 @@
         },
         {
           "source_row": 28,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "55-55-55-55-55",
           "feeling": "4",
@@ -837,7 +1013,7 @@
         },
         {
           "source_row": 29,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "40-40-40-35-35",
           "feeling": "2",
@@ -848,10 +1024,54 @@
         },
         {
           "source_row": 30,
-          "exercise": "",
+          "exercise": "Ягодичный мост",
           "reps": "10",
           "weight": "45-45-45-45-45",
           "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 31,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 32,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 33,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 34,
+          "exercise": "Ягодичный мост",
+          "reps": "",
+          "weight": "",
+          "feeling": "",
           "felt": "",
           "note": "",
           "section": "current",
