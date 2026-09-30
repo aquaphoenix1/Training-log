@@ -25,7 +25,12 @@ def is_marker(exercise, values):
     return "Начало новой схемы" in text or exercise in {"Агенда:", "Изменения"}
 
 def parse_entry(row, source_row, exercise, start, section, explicit=False):
-    values = [get(row, start + j) for j in range(5)]
+    # Google Sheets has a quirk on rows where the exercise name is explicitly
+    # entered: the exercise cell is duplicated in the exported block.
+    # Explicit row: exercise | exercise | reps | weight | feeling | felt | note
+    # Continued row: blank    | reps     | weight | feeling | felt | note
+    value_start = start + 2 if explicit else start + 1
+    values = [get(row, value_start + j) for j in range(5)]
     if is_marker(exercise, values):
         return None
     reps, weight, feeling, felt, note = values
@@ -48,11 +53,11 @@ for session_number, start in enumerate((1, 6, 11, 16), start=1):
     entries, notes = [], []
     for source_row, row in enumerate(rows[1:], start=2):
         exercise = get(row, 0)
-        values = [get(row, start + j) for j in range(5)]
+        values = [get(row, start + j) for j in range(6)]
         joined = " ".join([exercise] + [v for v in values if v])
         if "Начало новой схемы" in joined:
             notes.append({"source_row": source_row, "text": joined})
-        entry = parse_entry(row, source_row, exercise, start, "old", True)
+        entry = parse_entry(row, source_row, exercise, start, "old", bool(exercise))
         if entry:
             entries.append(entry)
     sessions.append({"session": session_number, "section": "old", "entries": entries, "notes": notes})
@@ -61,19 +66,21 @@ current_starts = [
     i for i, v in enumerate(header[current_start:], start=current_start)
     if v.strip() == EXERCISE and i + 4 < len(header)
 ]
-last_exercise = {}
+
 for start in current_starts:
     entries, notes = [], []
+    last_exercise = {}
     for source_row, row in enumerate(rows[1:], start=2):
         raw_exercise = get(row, start)
         if raw_exercise:
             last_exercise[source_row] = raw_exercise
         exercise = last_exercise.get(source_row, "")
-        values = [get(row, start + j) for j in range(5)]
+        explicit = bool(raw_exercise)
+        values = [get(row, start + j) for j in range(6)]
         joined = " ".join([exercise] + [v for v in values if v])
         if "Начало новой схемы" in joined:
             notes.append({"source_row": source_row, "text": joined})
-        entry = parse_entry(row, source_row, exercise, start, "current", bool(raw_exercise))
+        entry = parse_entry(row, source_row, exercise, start, "current", explicit)
         if entry:
             entries.append(entry)
     sessions.append({"session": len(sessions) + 1, "section": "current", "entries": entries, "notes": notes})
