@@ -12,107 +12,75 @@ with INPUT.open("r", encoding="utf-8-sig", newline="") as f:
     rows = list(csv.reader(f))
 if not rows:
     raise SystemExit("Google Sheet export is empty")
+
 header = rows[0]
 
-current_start = next((i for i, v in enumerate(header) if i > 0 and v.strip() == EXERCISE), None)
-if current_start is None:
-    raise SystemExit("Could not locate current workout section")
+# The actual exported sheet is a horizontal history. Every workout block is
+# exactly five columns: exercise, reps, weight, target-muscle feeling, felt.
+# Blank separator columns occur between some groups of blocks. There is no
+# duplicated exercise cell and no special first-row layout.
+block_starts = [
+    i for i, value in enumerate(header)
+    if value.strip() == EXERCISE
+]
+if not block_starts:
+    raise SystemExit("Could not locate workout blocks")
 
 
-def get(row, i):
-    return row[i].strip() if i < len(row) else ""
+def get(row, index):
+    return row[index].strip() if index < len(row) else ""
 
 
-def is_marker(exercise, values):
-    text = " ".join([exercise] + [v for v in values if v])
-    return "Начало новой схемы" in text or exercise in {"Агенда:", "Изменения"}
-
-
-def parse_entry(row, source_row, exercise, start, section, explicit):
-    # The exported sheet has two row layouts.
-    # Explicit exercise row:
-    # exercise | weight | feeling | felt | duplicate-exercise | reps | note
-    # Continuation row:
-    # blank    | reps   | weight  | feeling | felt | note
-    if explicit:
-        weight = get(row, start + 1)
-        feeling = get(row, start + 2)
-        felt = get(row, start + 3)
-        note = get(row, start + 4)
-        reps = get(row, start + 5)
-        if note == exercise:
-            note = ""
-    else:
+def parse_block(start, section, session_number):
+    entries = []
+    notes = []
+    for source_row, row in enumerate(rows[1:], start=2):
+        exercise = get(row, start)
         reps = get(row, start + 1)
         weight = get(row, start + 2)
         feeling = get(row, start + 3)
         felt = get(row, start + 4)
         note = get(row, start + 5)
 
-    values = [reps, weight, feeling, felt, note]
-    if is_marker(exercise, values):
-        return None
-    if not any([exercise] + values):
-        return None
+        text = " ".join(v for v in (exercise, reps, weight, feeling, felt, note) if v)
+        if "Начало новой схемы" in text:
+            notes.append({"source_row": source_row, "text": text})
+            continue
+        if exercise in {"Агенда:", "Изменения"}:
+            continue
+        if not any((exercise, reps, weight, feeling, felt, note)):
+            continue
+
+        entries.append({
+            "source_row": source_row,
+            "exercise": exercise,
+            "reps": reps,
+            "weight": weight,
+            "feeling": feeling,
+            "felt": felt,
+            "note": note,
+            "section": section,
+            "explicit_exercise": bool(exercise),
+        })
+
     return {
-        "source_row": source_row,
-        "exercise": exercise,
-        "reps": reps,
-        "weight": weight,
-        "feeling": feeling,
-        "felt": felt,
-        "note": note,
+        "session": session_number,
         "section": section,
-        "explicit_exercise": explicit,
+        "entries": entries,
+        "notes": notes,
     }
 
 
 sessions = []
-
-# Historical blocks. They use the same explicit/continuation layout.
-for session_number, start in enumerate((1, 6, 11, 16), start=1):
-    entries, notes = [], []
-    current_exercise = ""
-    for source_row, row in enumerate(rows[1:], start=2):
-        raw_exercise = get(row, start)
-        if raw_exercise:
-            current_exercise = raw_exercise
-        values = [get(row, start + j) for j in range(7)]
-        joined = " ".join([current_exercise] + [v for v in values if v])
-        if "Начало новой схемы" in joined:
-            notes.append({"source_row": source_row, "text": joined})
-        entry = parse_entry(row, source_row, current_exercise, start, "old", bool(raw_exercise))
-        if entry:
-            entries.append(entry)
-    sessions.append({"session": session_number, "section": "old", "entries": entries, "notes": notes})
-
-current_starts = [
-    i for i, v in enumerate(header[current_start:], start=current_start)
-    if v.strip() == EXERCISE and i + 4 < len(header)
-]
-
-for start in current_starts:
-    entries, notes = [], []
-    current_exercise = ""
-    for source_row, row in enumerate(rows[1:], start=2):
-        raw_exercise = get(row, start)
-        if raw_exercise:
-            current_exercise = raw_exercise
-        explicit = bool(raw_exercise)
-        values = [get(row, start + j) for j in range(7)]
-        joined = " ".join([current_exercise] + [v for v in values if v])
-        if "Начало новой схемы" in joined:
-            notes.append({"source_row": source_row, "text": joined})
-        entry = parse_entry(row, source_row, current_exercise, start, "current", explicit)
-        if entry:
-            entries.append(entry)
-    sessions.append({"session": len(sessions) + 1, "section": "current", "entries": entries, "notes": notes})
+for session_number, start in enumerate(block_starts, start=1):
+    section = "old" if session_number <= 4 else "current"
+    sessions.append(parse_block(start, section, session_number))
 
 result = {
     "source": "Google Sheets",
     "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-    "old_session_count": 4,
-    "current_session_count": len(current_starts),
+    "old_session_count": sum(s["section"] == "old" for s in sessions),
+    "current_session_count": sum(s["section"] == "current" for s in sessions),
     "session_count": len(sessions),
     "sessions": sessions,
 }
