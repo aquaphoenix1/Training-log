@@ -1,9 +1,9 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-02T10:23:33.139410+00:00",
+  "generated_at_utc": "2026-10-03T09:45:20.640284+00:00",
   "old_session_count": 4,
-  "current_session_count": 6,
-  "session_count": 10,
+  "current_session_count": 7,
+  "session_count": 11,
   "sessions": [
     {
       "session": 1,
@@ -2855,6 +2855,156 @@
           "reps": "10",
           "weight": "45-45-45-45-45",
           "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "session": 11,
+      "section": "current",
+      "entries": [
+        {
+          "source_row": 3,
+          "exercise": "Присед в смите",
+          "reps": "10",
+          "weight": "70-70-70-70-70",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 4,
+          "exercise": "",
+          "reps": "10",
+          "weight": "200-200-200-200-200",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 5,
+          "exercise": "",
+          "reps": "10",
+          "weight": "57.5-55-55-55-57.5",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 6,
+          "exercise": "",
+          "reps": "20",
+          "weight": "45-45-45-45",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 7,
+          "exercise": "",
+          "reps": "10",
+          "weight": "45-45-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 8,
+          "exercise": "",
+          "reps": "10",
+          "weight": "10-10-10-15-15",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 10,
+          "exercise": "",
+          "reps": "10",
+          "weight": "5-5-5-5-5",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 11,
+          "exercise": "",
+          "reps": "10",
+          "weight": "50-50-50-60-60",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 12,
+          "exercise": "",
+          "reps": "10",
+          "weight": "47.5-47.5-47.5-47.5-47.5",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 13,
+          "exercise": "",
+          "reps": "10",
+          "weight": "15-15-15-15-15",
+          "feeling": "2",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 14,
+          "exercise": "",
+          "reps": "10",
+          "weight": "25-25-20-20-20",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 15,
+          "exercise": "",
+          "reps": "10",
+          "weight": "20-20-18-18-",
+          "feeling": "2",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 16,
+          "exercise": "",
+          "reps": "10",
+          "weight": "20-17.5-17.5-17.5-17.5",
+          "feeling": "4",
           "felt": "",
           "note": "",
           "section": "current",

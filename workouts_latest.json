@@ -1,290 +1,8 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-02T10:23:33.139410+00:00",
+  "generated_at_utc": "2026-10-03T09:45:20.640284+00:00",
   "session_count": 3,
   "sessions": [
-    {
-      "session": 8,
-      "section": "current",
-      "entries": [
-        {
-          "source_row": 3,
-          "exercise": "Присед в смите",
-          "reps": "10",
-          "weight": "70-70-70-60-60",
-          "feeling": "3",
-          "felt": "Общая слабость",
-          "note": "Присед в смите",
-          "section": "current",
-          "explicit_exercise": true
-        },
-        {
-          "source_row": 4,
-          "exercise": "",
-          "reps": "10",
-          "weight": "200-200-200-180-180",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 5,
-          "exercise": "",
-          "reps": "10",
-          "weight": "52.5-52.5-55-55-55",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 6,
-          "exercise": "",
-          "reps": "20",
-          "weight": "42.5-42.5-42.5-42.5",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 7,
-          "exercise": "",
-          "reps": "10",
-          "weight": "40-40-45-45-45",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 8,
-          "exercise": "",
-          "reps": "10",
-          "weight": "10-10-10-10-15",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 10,
-          "exercise": "",
-          "reps": "10",
-          "weight": "5-5-5-5-5",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 11,
-          "exercise": "",
-          "reps": "10",
-          "weight": "50-50-50-50-50",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 12,
-          "exercise": "",
-          "reps": "10",
-          "weight": "45-45-47.5-47.5-47.5",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 13,
-          "exercise": "",
-          "reps": "10",
-          "weight": "15-15-15-15-15",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 14,
-          "exercise": "",
-          "reps": "10",
-          "weight": "25-20-20-20-20",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 15,
-          "exercise": "",
-          "reps": "10",
-          "weight": "18-18-18-20-20",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 16,
-          "exercise": "",
-          "reps": "10",
-          "weight": "17.5-17.5-17.5-15-15",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 18,
-          "exercise": "Румынская тяга в смите",
-          "reps": "10",
-          "weight": "60-40-40-40-40",
-          "feeling": "0",
-          "felt": "Поясница/кисти",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": true
-        },
-        {
-          "source_row": 19,
-          "exercise": "",
-          "reps": "12",
-          "weight": "57.5-55-55-52.5-52.5",
-          "feeling": "5",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 20,
-          "exercise": "",
-          "reps": "10",
-          "weight": "28-28-32",
-          "feeling": "1",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 21,
-          "exercise": "",
-          "reps": "12",
-          "weight": "80-80-80",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 22,
-          "exercise": "",
-          "reps": "12",
-          "weight": "75-75-75",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 23,
-          "exercise": "",
-          "reps": "10",
-          "weight": "20-20-20-20-20",
-          "feeling": "4",
-          "felt": "",
-          "note": "Ягодичный мост",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 25,
-          "exercise": "",
-          "reps": "10",
-          "weight": "20-20-20-20-20",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 26,
-          "exercise": "",
-          "reps": "10",
-          "weight": "65-65-70-70-70",
-          "feeling": "4",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 27,
-          "exercise": "",
-          "reps": "10",
-          "weight": "40-40-40-45-45",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 28,
-          "exercise": "",
-          "reps": "10",
-          "weight": "50-50-50-55-55",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 29,
-          "exercise": "",
-          "reps": "10",
-          "weight": "40-40-40-35-35",
-          "feeling": "2",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        },
-        {
-          "source_row": 30,
-          "exercise": "",
-          "reps": "10",
-          "weight": "40-45-45-45-45",
-          "feeling": "3",
-          "felt": "",
-          "note": "",
-          "section": "current",
-          "explicit_exercise": false
-        }
-      ],
-      "notes": []
-    },
     {
       "session": 9,
       "section": "current",
@@ -852,6 +570,156 @@
           "reps": "10",
           "weight": "45-45-45-45-45",
           "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "session": 11,
+      "section": "current",
+      "entries": [
+        {
+          "source_row": 3,
+          "exercise": "Присед в смите",
+          "reps": "10",
+          "weight": "70-70-70-70-70",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": true
+        },
+        {
+          "source_row": 4,
+          "exercise": "",
+          "reps": "10",
+          "weight": "200-200-200-200-200",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 5,
+          "exercise": "",
+          "reps": "10",
+          "weight": "57.5-55-55-55-57.5",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 6,
+          "exercise": "",
+          "reps": "20",
+          "weight": "45-45-45-45",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 7,
+          "exercise": "",
+          "reps": "10",
+          "weight": "45-45-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 8,
+          "exercise": "",
+          "reps": "10",
+          "weight": "10-10-10-15-15",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 10,
+          "exercise": "",
+          "reps": "10",
+          "weight": "5-5-5-5-5",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 11,
+          "exercise": "",
+          "reps": "10",
+          "weight": "50-50-50-60-60",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 12,
+          "exercise": "",
+          "reps": "10",
+          "weight": "47.5-47.5-47.5-47.5-47.5",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 13,
+          "exercise": "",
+          "reps": "10",
+          "weight": "15-15-15-15-15",
+          "feeling": "2",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 14,
+          "exercise": "",
+          "reps": "10",
+          "weight": "25-25-20-20-20",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 15,
+          "exercise": "",
+          "reps": "10",
+          "weight": "20-20-18-18-",
+          "feeling": "2",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 16,
+          "exercise": "",
+          "reps": "10",
+          "weight": "20-17.5-17.5-17.5-17.5",
+          "feeling": "4",
           "felt": "",
           "note": "",
           "section": "current",
