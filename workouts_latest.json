@@ -1,6 +1,6 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-04T10:29:01.362403+00:00",
+  "generated_at_utc": "2026-10-05T11:18:24.585807+00:00",
   "session_count": 3,
   "sessions": [
     {
@@ -505,7 +505,7 @@
           "weight": "30-30-30-30-30",
           "feeling": "4",
           "felt": "",
-          "note": "",
+          "note": "Ягодичный мост",
           "section": "current",
           "explicit_exercise": true
         },
@@ -724,6 +724,72 @@
           "note": "",
           "section": "current",
           "explicit_exercise": false
+        },
+        {
+          "source_row": 18,
+          "exercise": "",
+          "reps": "10",
+          "weight": "44-44-44-44-44",
+          "feeling": "1",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 19,
+          "exercise": "",
+          "reps": "12",
+          "weight": "57.5-57.5-57.5-55-55",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 20,
+          "exercise": "",
+          "reps": "10",
+          "weight": "32-32-32",
+          "feeling": "1",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 21,
+          "exercise": "",
+          "reps": "12",
+          "weight": "85-80-80",
+          "feeling": "5",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 22,
+          "exercise": "",
+          "reps": "12",
+          "weight": "80-75-75",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 23,
+          "exercise": "Ягодичный мост",
+          "reps": "10",
+          "weight": "35-35-30-30-30",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": true
         }
       ],
       "notes": []
