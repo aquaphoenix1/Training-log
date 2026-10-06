@@ -1,6 +1,6 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-05T11:18:24.585807+00:00",
+  "generated_at_utc": "2026-10-06T09:18:18.004721+00:00",
   "old_session_count": 4,
   "current_session_count": 7,
   "session_count": 11,
@@ -3075,6 +3075,72 @@
           "note": "",
           "section": "current",
           "explicit_exercise": true
+        },
+        {
+          "source_row": 25,
+          "exercise": "",
+          "reps": "10",
+          "weight": "20-20-20-20-20",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 26,
+          "exercise": "",
+          "reps": "10",
+          "weight": "70-70-70-70-70",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 27,
+          "exercise": "",
+          "reps": "10",
+          "weight": "47.5-47.5-45-45-45",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 28,
+          "exercise": "",
+          "reps": "10",
+          "weight": "60-55-55-55-55",
+          "feeling": "3",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 29,
+          "exercise": "",
+          "reps": "10",
+          "weight": "40-40-40-35-35",
+          "feeling": "2",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
+        },
+        {
+          "source_row": 30,
+          "exercise": "",
+          "reps": "10",
+          "weight": "50-45-45-45-45",
+          "feeling": "4",
+          "felt": "",
+          "note": "",
+          "section": "current",
+          "explicit_exercise": false
         }
       ],
       "notes": []
