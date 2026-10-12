@@ -1,6 +1,6 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-11T10:42:05.001667+00:00",
+  "generated_at_utc": "2026-10-12T05:55:04.661706+00:00",
   "session_count": 3,
   "sessions": [
     {
@@ -589,7 +589,7 @@
           "weight": "70-70-70-70-70",
           "feeling": "4",
           "felt": "",
-          "note": "",
+          "note": "Присед в смите",
           "section": "current",
           "explicit_exercise": true
         },
