@@ -1,6 +1,6 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-17T08:25:09.216253+00:00",
+  "generated_at_utc": "2026-10-18T08:44:10.528150+00:00",
   "session_count": 3,
   "sessions": [
     {
@@ -776,7 +776,7 @@
           "weight": "35-35-35-35-35",
           "feeling": "3",
           "felt": "",
-          "note": "",
+          "note": "Ягодичный мост",
           "section": "current",
           "explicit_exercise": true
         },
