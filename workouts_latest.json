@@ -1,6 +1,6 @@
 {
   "source": "Google Sheets",
-  "generated_at_utc": "2026-10-28T10:26:39.925482+00:00",
+  "generated_at_utc": "2026-10-29T10:46:46.951107+00:00",
   "session_count": 3,
   "sessions": [
     {
@@ -776,7 +776,7 @@
           "weight": "40-40-40-40-40",
           "feeling": "3",
           "felt": "",
-          "note": "",
+          "note": "Ягодичный мост",
           "section": "current",
           "explicit_exercise": true
         },
@@ -831,7 +831,7 @@
           "weight": "40-40-40-30-30",
           "feeling": "3",
           "felt": "",
-          "note": "",
+          "note": "Жим в тренажере",
           "section": "current",
           "explicit_exercise": true
         },
